@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">toppage2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">空港シェアボックス</string>
+    <string name="nav_header_subtitle">　</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_toppage">トップ</string>
+    <string name="menu_mypage">マイページ</string>
+    <string name="menu_reserve">予約状況確認(履歴)</string>
+    <string name="menu_qr">QR読み取り</string>
+    <string name="menu_coupon">クーポン</string>
+
+    <string name="search_title">検索</string>
+
+    <string name="appbar_scrolling_view_behavior"></string>
+
+    <string-array name="airport_list">
+        <item>成田空港</item>
+        <item>羽田空港</item>
+        <item>関西国際空港</item>
+        <item>福岡空港</item>
+    </string-array>
+</resources>

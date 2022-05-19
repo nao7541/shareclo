@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_top">
+
+    <fragment
+        android:id="@+id/nav_top"
+        android:name="com.example.toppage2.ui.top.TopFragment"
+        android:label="@string/menu_toppage"
+        tools:layout="@layout/fragment_top" >
+        <action
+            android:id="@+id/action_nav_top_to_nav_inventory"
+            app:destination="@id/nav_inventory" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_mypage"
+        android:name="com.example.toppage2.ui.home.HomeFragment"
+        android:label="@string/menu_mypage"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.toppage2.ui.gallery.GalleryFragment"
+        android:label="@string/menu_reserve"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_qr"
+        android:name="com.example.toppage2.ui.qr.QrFragment"
+        android:label="@string/menu_qr"
+        tools:layout="@layout/fragment_qr" />
+    <fragment
+        android:id="@+id/nav_coupon"
+        android:name="com.example.toppage2.ui.coupon.CouponFragment"
+        android:label="@string/menu_coupon"
+        tools:layout="@layout/fragment_coupon" />
+
+    <fragment
+        android:id="@+id/nav_inventory"
+        android:name="com.example.toppage2.ui.inventory.InventoryFragment"
+        android:label="@string/menu_coupon"
+        tools:layout="@layout/fragment_inventory" />
+</navigation>

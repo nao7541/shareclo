@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_top"
+            android:icon="@drawable/map_icon"
+            android:title="@string/menu_toppage" />
+
+        <item
+            android:id="@+id/nav_mypage"
+            android:icon="@drawable/mypage_icon"
+            android:title="@string/menu_mypage" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/reserve_icon"
+            android:title="@string/menu_reserve" />
+        <item
+            android:id="@+id/nav_qr"
+            android:icon="@drawable/qr_icon"
+            android:title="@string/menu_qr" />
+        <item
+            android:id="@+id/nav_coupon"
+            android:icon="@drawable/coupon_icon"
+            android:title="@string/menu_coupon" />
+    </group>
+</menu>
